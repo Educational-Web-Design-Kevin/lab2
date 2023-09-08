@@ -9,4 +9,9 @@ html {
 
 }
 
-/*Mobile design 280px X 400px*/
+#inpemladdr,
+#inpphnnum,
+#inpdob {
+    border-radius: 0.625em;
+
+}
