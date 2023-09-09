@@ -9,9 +9,16 @@ html {
 
 }
 
+label,
+input {
+    margin: 0.25em 0.125em 0.25em 0.125em; /*4/16-0.25 AND 2/16=0.125*/
+    padding: 0.25em 0.125em 0.25em 0.125em; /*4/16-0.25*/
+}
+
 #inpemladdr,
 #inpphnnum,
 #inpdob {
-    border-radius: 0.625em;
-
+    border-radius: 0.625em; /*10/16=0.625*/
+    box-sizing: border-box;
+    border-style: solid;
 }
