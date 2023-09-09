@@ -36,4 +36,5 @@ p {
     border-radius: 0.625em; /*10/16=0.625*/
     box-sizing: border-box;
     border-style: solid;
+    width: 100%;
 }
