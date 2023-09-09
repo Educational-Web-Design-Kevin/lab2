@@ -38,3 +38,10 @@ p {
     text-align: center;
     line-height: 1.25em; /*20/16=1.25*/
 }
+
+#inpsub {
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    margin-top: 0.25em; /*4/16-0.25*/
+    background-color: rgb(68, 64, 64);
+}
