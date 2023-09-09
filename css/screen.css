@@ -18,6 +18,7 @@ section {
 input {
     font-family: inherit;
     font-size: inherit;
+    font-weight: 200;
     border-radius: 0.625em; /*10/16=0.625*/
     box-sizing: border-box;
     border-style: solid;
