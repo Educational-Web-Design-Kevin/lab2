@@ -13,6 +13,7 @@ label,
 input {
     display: block;
     margin: 0.25em 0.125em 0.25em 0.125em; /*4/16-0.25 AND 2/16=0.125*/
+    max-width: 100%;
     padding: 0.25em 0.125em 0.25em 0.125em; /*4/16-0.25*/
 }
 
