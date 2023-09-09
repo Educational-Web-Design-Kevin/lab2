@@ -38,14 +38,16 @@ p {
 }
 
 #inpsub {
+    background-color: rgb(75, 70, 70);
     color: rgb(245, 245, 245);
     font-weight: bold;
     margin-top: 2em; /*32/16=2*/
-    background-color: rgb(75, 70, 70);
+    padding: 0.75em 0 0.75em 0; /*12/16=0.75*/
 }
 
 #inpemladdr,
 #inpphnnum,
 #inpdob {
-    margin: 2em 0em 2em 0em; /*32/16=2*/
+    margin: 1em 0 1em 0; /*16/16=1*/
+    padding: 0.50em 0 0.50em 0; /*8/16=0.50*/
 }
