@@ -5,7 +5,7 @@ html {
     background-color: cornsilk;
     font-size: 1em; /*16/16=1*/
     line-height: 1.25em; /*20/16=1.25*/
-    margin: 0.25em; /*4/16=0.25*/
+    margin: 0.125em 0.25em 0.125em 0.25em; /*4/16=0.25 AND 2/16=0.125*/
 
 }
 
@@ -36,7 +36,7 @@ h1,
 p {
     text-align: center;
     line-height: 1.25em; /*20/16=1.25*/
-    padding: 0.25em 0.25em 0.25em 0.25em; /*4/16-0.25*/
+    padding: 0.125em 0.25em 0.125em 0.25em; /*4/16=0.25 AND 2/16=0.125*/
 }
 
 #inpsub {
