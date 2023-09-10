@@ -16,9 +16,9 @@ section {
 }
 
 input {
+    color:rgb(55, 55, 55);
     font-family: inherit;
     font-size: inherit;
-    font-weight: 200;
     border-radius: 0.625em; /*10/16=0.625*/
     box-sizing: border-box;
     border-style: solid;
@@ -49,5 +49,5 @@ p {
 #inpphnnum,
 #inpdob {
     margin: 1em 0 1em 0; /*16/16=1*/
-    padding: 0.50em 0 0.50em 0; /*8/16=0.50*/
+    padding: 0.50em 0.50em 0.50em 0.50em; /*8/16=0.50*/
 }
