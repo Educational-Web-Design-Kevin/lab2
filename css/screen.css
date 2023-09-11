@@ -61,6 +61,7 @@ p {
 
 @media screen and (min-width: 87.5em) { /*1400/16=*/
     section {
+        display: flex;
         align-items: center;
         width: 27em; /*432/16/=27*/
 
