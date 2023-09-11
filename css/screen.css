@@ -61,16 +61,8 @@ p {
 /*However I set it to 480px to make the transition more elegant*/
 
 @media screen and (min-width: 30em) { /*480/16=30*/
-    /*section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 27em; /*432/16/=27*/
-
-    /*}*/
 
     section {
-        /*width: 27em; /*432/16/=27*/
         width:  25em; /*400/16=25*/
         margin-left: auto;
         margin-right: auto;
