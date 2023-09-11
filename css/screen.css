@@ -2,7 +2,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: cornsilk;
+    background-color: rgb(235, 225, 185);
     font-size: 1em; /*16/16=1*/
     line-height: 1.50em; /*24/16=1.50*/
     margin: 0.125em 0.25em 0.125em 0.25em; /*4/16=0.25 AND 2/16=0.125*/
@@ -61,6 +61,10 @@ p {
 /*However I set it to 480px to make the transition more elegant*/
 
 @media screen and (min-width: 30em) { /*480/16=30*/
+
+    html {
+        background-color: rgb(255, 255, 255);
+    }
 
     section {
         background-color: rgb(235, 225, 185);
