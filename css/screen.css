@@ -72,8 +72,8 @@ p {
     section {
         /*width: 27em; /*432/16/=27*/
         width:  25em; /*400/16=25*/
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 
