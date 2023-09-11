@@ -60,7 +60,11 @@ p {
 /*Desktop Screen 1400px X 800px*/
 
 @media screen and (min-width: 87.5em) { /*1400/16=*/
-
+    section {
+        margin-left: 25%;
+        margin-right: 25%;
+        width: 50%;
+    }
 
 
 }
