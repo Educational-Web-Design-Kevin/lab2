@@ -27,7 +27,7 @@ input {
 
 p {
     font-size: 0.875em; /*14/16=0.785*/
-    margin-bottom: 0.50em; /*8/16=0.50*/
+    margin-bottom: 1em; /*16/16=1*/
 }
 
 form,
