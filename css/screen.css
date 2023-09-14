@@ -25,6 +25,10 @@ input {
     width: 100%;
 }
 
+p {
+    margin-bottom: 0.50em; /*8/16=0.50*/
+}
+
 form,
 h1,
 p {
