@@ -71,6 +71,10 @@ p {
         background-color: rgb(255, 255, 255);
     }
 
+    body {
+        margin: auto;
+    }
+
     section {
         background-color: rgb(232, 233, 238);
         border: 0.125em solid rgb(123, 123, 128); /*2/16=0.125*/
