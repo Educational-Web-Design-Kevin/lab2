@@ -73,7 +73,7 @@ p {
 
     section {
         background-color: rgb(232, 233, 238);
-        border: 0.125em solid rgb(67, 67, 69); /*2/16=0.125*/
+        border: 0.125em solid rgb(96, 96, 104); /*2/16=0.125*/
         margin: auto;
         padding: 0 2em 0 2em; /*32/16=2*/
         width:  25em; /*400/16=25*/
