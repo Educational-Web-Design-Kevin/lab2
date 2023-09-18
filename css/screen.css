@@ -81,8 +81,8 @@ p {
 }
 
 /*Desktop screens. The height condition makes sure mobile phones in landscape view are not affected*/
-@media screen and (min-width: 30em) and (min-height: 33.5em) /*480/16=30 AND 536/16=33.5*/{
-    
+@media screen and (min-width: 30em) and (min-height: 30em) /*480/16=30/{
+
     input,
     label {
         font-size: 1.15em; /*18.4/16=1.15*/
