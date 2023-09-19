@@ -62,8 +62,12 @@ p {
     padding: 0.50em 0.50em 0.50em 0.50em; /*8/16=0.50*/
 }
 
-/*Desktop Screen width 1400px*/
-/*However I set it to 480px to make the transition more elegant*/
+/*Screens with a height greater than 464px Useful for tall mobile phones*/
+@media screen and (min-height: 29em) {/*464/16=29*/
+
+}
+
+/*Screens greater than 480 pixels.*/
 
 @media screen and (min-width: 30em) { /*480/16=30*/
 
