@@ -64,7 +64,9 @@ p {
 
 /*Screens with a height greater than 464px Useful for tall mobile phones*/
 @media screen and (min-height: 29em) {/*464/16=29*/
-
+    section {
+        height: 50%;
+    }
 }
 
 /*Screens greater than 480 pixels.*/
