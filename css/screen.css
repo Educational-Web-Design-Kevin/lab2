@@ -61,7 +61,8 @@ p {
     padding: 0.50em 0.50em 0.50em 0.50em; /*8/16=0.50*/
 }
 
-/*Screens with a height greater than 512px Useful for tall mobile phones*/
+/*Screens with a height greater than 512 pixels. */
+/*Useful for tall mobile phones*/
 @media screen and (min-height: 32em) {/*512/16=32*/
     html {
         /*Credit: W3C Schools*/
@@ -75,6 +76,7 @@ p {
 }
 
 /*Screens greater than 480 pixels.*/
+/*Greatly benefits big mobile phones in landscape view and Desktop screens.*/
 @media screen and (min-width: 30em) { /*480/16=30*/
 
     html {
@@ -91,6 +93,7 @@ p {
 }
 
 /*Desktop screens. The height condition makes sure mobile phones in landscape view are not affected*/
+/*Meant to increase font size*/
 @media screen and (min-width: 30em) and (min-height: 30em) {/*480/16=30*/
 
     input,
