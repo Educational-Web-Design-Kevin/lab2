@@ -28,16 +28,16 @@ p {
     margin-bottom: 1em; /*16/16=1*/
 }
 
+h1,
+p {
+    text-align: center;
+}
+
 form,
 h1,
 p {
     display: block;
     max-width: 100%;  
-}
-
-h1,
-p {
-    text-align: center;
 }
 
 #inpsub {
@@ -61,7 +61,7 @@ p {
     padding: 0.50em 0.50em 0.50em 0.50em; /*8/16=0.50*/
 }
 
-/*Screens with a height greater than 464px Useful for tall mobile phones*/
+/*Screens with a height greater than 512px Useful for tall mobile phones*/
 @media screen and (min-height: 32em) {/*512/16=32*/
     html {
         /*Credit: W3C Schools*/
@@ -75,7 +75,6 @@ p {
 }
 
 /*Screens greater than 480 pixels.*/
-
 @media screen and (min-width: 30em) { /*480/16=30*/
 
     html {
