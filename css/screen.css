@@ -1,11 +1,10 @@
-/*Default css modifications*/
+/*Default css modifications (Mobile Design)*/
 
 html {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(232, 233, 238);
     font-size: 1em; /*16/16=1*/
     margin: 0.125em 0.25em 0.125em 0.25em; /*4/16=0.25 AND 2/16=0.125*/
-
 }
 
 section {
@@ -49,7 +48,7 @@ p {
     padding: 0.75em 0 0.75em 0; /*12/16=0.75*/
 }
 
-#inpsub:hover, #inpsub:active{
+#inpsub:hover, #inpsub:active {
     background-color:rgb(18, 17, 17);
     color: rgb(207, 190, 148);
 }
@@ -93,18 +92,18 @@ p {
 }
 
 /*Desktop screens. The height condition makes sure mobile phones in landscape view are not affected*/
-@media screen and (min-width: 30em) and (min-height: 30em) /*480/16=30*/{
+@media screen and (min-width: 30em) and (min-height: 30em) {/*480/16=30*/
 
     input,
     label {
         font-size: 1.15em; /*18.4/16=1.15*/
     }
 
-    h1{
+    h1 {
         font-size: 2.011em; /*32.182/16=2.011*/
     }
 
-    p{
+    p {
         font-size: 1em; /*16/16=1*/
     }
 }
